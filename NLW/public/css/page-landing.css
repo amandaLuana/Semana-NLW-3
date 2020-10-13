@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
 
 #page-landing {
     background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 
@@ -14,10 +16,30 @@
     width: min(90%, 112rem);
 }
 
-.location, h1, .visit p {
+.location,
+h1,
+.visit p {
     height: 16vh;
 } 
 
+#logo {
+    animation-delay: 50ms;
+}
+
+.location {
+    animation-delay: 100ms;
+}
+
+
+main h1 {
+    animation-delay: 150ms;
+    font-size: clamp(4rem, 8vw, 8.4rem);
+}
+
+
+.visit p {
+    animation-delay: 200ms;
+}
 
 .visit a  {
     width: 8rem;
@@ -41,31 +63,12 @@
     background: #96feff;
 }
 
-
-#logo {
-    animation-delay: 50ms;
-}
-
-.location {
-    animation-delay: 100ms;
-}
-
-main h1 {
-    animation-delay: 150ms;
-    font-size: clamp(4rem, 8vw, 8.4rem);
-}
-
-.visit p {
-    animation-delay: 200ms;
-}
-
-
-
 /*desktop version*/
 @media (min-width: 760px) {
     #container {
+        padding: 5rem 2rem;
         /*shorthando background: image repeat position / size*/
-        background: url("../images/bg.svg") no-repeat 80%;
+        background: url("../images/bg.svg") no-repeat 80% / clamp(30rem, 54vw, 56rem);
     }
 
     header {
@@ -86,7 +89,6 @@ main h1 {
     }
 
     main h1 {
-        font-weight: bold;
         line-height: .88;
         font-family: 'Nunito', sans-serif;
         margin: clamp(10%, 9vh, 12%) 0 4rem;
