@@ -2,8 +2,7 @@
 
 
 #page-landing {
-    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 
-    100%);
+    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
     text-align: center;
     min-height: 100vh;
 
@@ -20,7 +19,7 @@
 h1,
 .visit p {
     height: 16vh;
-} 
+}
 
 #logo {
     animation-delay: 50ms;
@@ -41,7 +40,7 @@ main h1 {
     animation-delay: 200ms;
 }
 
-.visit a  {
+.visit a {
     width: 8rem;
     height: 8rem;
     background: #FFD666;
@@ -77,13 +76,15 @@ main h1 {
         justify-content: space-between;
     }
 
-    .location, h1, .visit p {
+    .location,
+    h1,
+    .visit p {
         height: initial;
         text-align: initial;
     }
 
     .location {
-        text-align: right; 
+        text-align: right;
         font-size: 2.4rem;
         line-height: 1.5;
     }
