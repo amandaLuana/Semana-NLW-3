@@ -1,4 +1,4 @@
-/*animações*/
+/* animaçoes */
 @keyframes up {
     from {
         opacity: 0;
@@ -15,7 +15,6 @@
     from {
         transform: translateX(-100%);
     }
-
     to {
         transform: translateX(0);
     }
@@ -25,14 +24,13 @@
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
 }
 
 .animate-up {
-    animation-name: up;
+    animation-name: up; 
     animation-duration: 300ms;
     animation-fill-mode: backwards;
 }
@@ -40,7 +38,6 @@
 .animate-right {
     animation-name: right;
     animation-duration: 300ms;
-    
 }
 
 .animate-appear {
